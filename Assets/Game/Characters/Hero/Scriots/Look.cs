@@ -7,9 +7,12 @@ public class Look : MonoBehaviour
 {
     RaycastHit hit;
     Ray ray;
+    LayerMask Cube;
 
     [SerializeField]
     GameObject Player;
+    [SerializeField]
+    float delta;
 
     void Start()
     {
@@ -22,10 +25,13 @@ public class Look : MonoBehaviour
         Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow);
         if(Physics.Raycast(ray, out hit))
         {
-            Vector3 toPoint = hit.point - Player.transform.position;
-            Player.transform.rotation = Quaternion.LookRotation(toPoint);
-            Debug.Log(hit.point);
-        }
-       
+            if (hit.collider.gameObject.name == "Plane")
+            {
+                Vector3 toPoint = hit.point - Player.transform.position;
+                float rotZ = Mathf.Atan2(toPoint.x, toPoint.z) * Mathf.Rad2Deg;
+                Player.transform.rotation = Quaternion.Euler(0f, rotZ - delta, 0f);
+                Debug.Log(hit.point);
+            }
+        }       
     }
 }
