@@ -7,12 +7,11 @@ public class Look : MonoBehaviour
 {
     RaycastHit hit;
     Ray ray;
-    LayerMask Cube;
+
+    float _minimumDistance = 0.2f;
 
     [SerializeField]
     GameObject Player;
-    [SerializeField]
-    float delta;
 
     void Start()
     {
@@ -23,14 +22,19 @@ public class Look : MonoBehaviour
     {
         ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow);
-        if(Physics.Raycast(ray, out hit))
+        Debug.Log(hit.point);
+        if (Physics.Raycast(ray, out hit))
         {
             if (hit.collider.gameObject.name == "Plane")
             {
                 Vector3 toPoint = hit.point - Player.transform.position;
-                float rotZ = Mathf.Atan2(toPoint.x, toPoint.z) * Mathf.Rad2Deg;
-                Player.transform.rotation = Quaternion.Euler(0f, rotZ - delta, 0f);
-                Debug.Log(hit.point);
+                if (toPoint.magnitude > _minimumDistance)
+                {
+                    float rotZ = Mathf.Atan2(toPoint.x, toPoint.z) * Mathf.Rad2Deg;
+                    Player.transform.rotation = Quaternion.Euler(0f, rotZ, 0f);
+                    Debug.Log(toPoint.magnitude);
+                }
+
             }
         }       
     }
