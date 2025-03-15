@@ -8,7 +8,7 @@ public class Look : MonoBehaviour
     RaycastHit hit;
     Ray ray;
 
-    float _minimumDistance = 0.2f;
+    float _minimumDistance = 0.01f;
 
     [SerializeField]
     GameObject Player;
@@ -20,9 +20,7 @@ public class Look : MonoBehaviour
 
     void Update()
     {
-        ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow);
-        Debug.Log(hit.point);
+        ray = Camera.main.ScreenPointToRay(Input.mousePosition);        
         if (Physics.Raycast(ray, out hit))
         {
             if (hit.collider.gameObject.name == "Plane")
@@ -36,6 +34,8 @@ public class Look : MonoBehaviour
                 }
 
             }
-        }       
+        }
+        Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow);
+        Debug.Log(hit.point);
     }
 }
