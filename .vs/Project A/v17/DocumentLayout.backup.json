@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Unity User\\Project A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\hero\\scriots\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\hero\\scriots\\look.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\look.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\hero\\scriots\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\hero\\scriots\\look.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\look.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\hero\\scriots\\animatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\animatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "AnimatorController.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\AnimatorController.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\AnimatorController.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\AnimatorController.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\AnimatorController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T14:33:29.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Move.cs",
               "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
               "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
               "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
               "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T20:25:35.363Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Look.cs",
               "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
               "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
               "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
               "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T18:38:15.944Z",
               "EditorCaption": ""

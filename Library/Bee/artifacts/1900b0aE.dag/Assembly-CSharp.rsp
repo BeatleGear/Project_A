@@ -355,6 +355,7 @@
 "Assets/Game/Characters/Hero/Scriots/AnimatorController.cs"
 "Assets/Game/Characters/Hero/Scriots/Look.cs"
 "Assets/Game/Characters/Hero/Scriots/Move.cs"
+"Assets/Game/Characters/Hero/Scriots/TopDownController.cs"
 -langversion:9.0
 
 /deterministic
