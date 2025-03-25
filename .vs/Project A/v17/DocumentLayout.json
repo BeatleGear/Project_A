@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "E:\\Unity User\\Project A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\hero\\scriots\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\enemy\\scripts\\enemybeh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\enemybeh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\hero\\scriots\\followingcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\enemy\\scripts\\enemyanimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\enemyanimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\enemy\\scripts\\enemyeventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\enemyeventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\hero\\scriots\\followingcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\followingcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\hero\\scriots\\look.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\hero\\scriots\\look.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\look.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\hero\\scriots\\animatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\animatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\hero\\scriots\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,6 +39,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EnemyAnimController.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyAnimController.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyAnimController.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyAnimController.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyAnimController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T19:08:46.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyEventController.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventController.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventController.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventController.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:35:22.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnemyBeh.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyBeh.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyBeh.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyBeh.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyBeh.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowD4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T09:49:38.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FollowingCamera.cs",
               "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\FollowingCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\FollowingCamera.cs",
@@ -38,24 +85,11 @@
               "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\FollowingCamera.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T17:02:09.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T17:02:09.445Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AnimatorController.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\AnimatorController.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\AnimatorController.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\AnimatorController.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\AnimatorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T14:33:29.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Move.cs",
               "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
               "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
@@ -63,21 +97,19 @@
               "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T20:25:35.363Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T20:25:35.363Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Look.cs",
               "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
               "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
               "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
               "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwEkAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T18:38:15.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T18:38:15.944Z"
             }
           ]
         }

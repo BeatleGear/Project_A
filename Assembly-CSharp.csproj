@@ -62,9 +62,13 @@
   <ItemGroup>
     <Compile Include="Assets\Game\Characters\Hero\Scriots\AnimatorController.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\FollowingCamera.cs" />
+    <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyBeh.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\TopDownController.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\Look.cs" />
+    <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyEventController.cs" />
+    <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyAnimController.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\Move.cs" />
+    <Compile Include="Assets\Game\Characters\Enemy\Scripts\TestScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -927,8 +931,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
@@ -971,8 +983,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
