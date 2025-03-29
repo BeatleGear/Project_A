@@ -359,7 +359,7 @@
 "Assets/Game/Characters/Enemy/Scripts/EnemyAnimController.cs"
 "Assets/Game/Characters/Enemy/Scripts/EnemyBeh.cs"
 "Assets/Game/Characters/Enemy/Scripts/EnemyEventController.cs"
-"Assets/Game/Characters/Enemy/Scripts/TestScript.cs"
+"Assets/Game/Characters/Enemy/Scripts/EnemySpawner.cs"
 "Assets/Game/Characters/Hero/Scriots/AnimatorController.cs"
 "Assets/Game/Characters/Hero/Scriots/FollowingCamera.cs"
 "Assets/Game/Characters/Hero/Scriots/Look.cs"

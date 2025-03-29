@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using static EnemyBeh;
-using static EnemyEventController;
 
 public class EnemyBeh : MonoBehaviour
 {
     public NavMeshAgent agent;
 
     public Transform player;
+
+    public EnemyEventController enemyEventController;
 
     public LayerMask whatIsGround, whatIsPlayer;
 
@@ -27,7 +27,6 @@ public class EnemyBeh : MonoBehaviour
 
     //Attacking
     public float timeBetweenAttacks;
-    bool alreadyAttacked;
 
     //States
     public float sightRange, attackRange;
@@ -35,6 +34,8 @@ public class EnemyBeh : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //enemyEventController = GameObject.Find("EnemyEvent").GetComponent<EnemyEventController>();
+        player = GameObject.Find("Pistol Idle").GetComponent<Transform>();
         isEnemyIdle = true;
         idleTime = idleTimeToIdle;
     }
@@ -51,9 +52,10 @@ public class EnemyBeh : MonoBehaviour
     }
     private void Patrolling()
     {
+        Debug.Log("Патруль");
         if (isEnemyIdle)
         {
-            EnemyEventController.OnEnemyAnimations(AnimationType.Idle);
+            enemyEventController.OnEnemyAnimations("Idle");
 
             agent.SetDestination(transform.position);
             idleTime -= Time.deltaTime;
@@ -65,7 +67,7 @@ public class EnemyBeh : MonoBehaviour
         }
         else 
         {
-            EnemyEventController.OnEnemyAnimations(AnimationType.Patrolling);
+            enemyEventController.OnEnemyAnimations("Patrolling");
 
             if (!walkPointSet)
                 SearchWalkPoint();
@@ -92,19 +94,22 @@ public class EnemyBeh : MonoBehaviour
     }
     private void ChasePlayer()
     {
+        Debug.Log("Преследование");
         agent.SetDestination(player.position);
+        enemyEventController.OnEnemyAnimations("Patrolling");
     }
 
     private void AttackPlayer()
     {
-        //Make sure enemy doesn't move
-        agent.SetDestination(transform.position);
+        Debug.Log("Атака");
+        if((player.position - transform.position).magnitude < 1)
+        {
+            enemyEventController.OnEnemyAnimations("AttackPlayer");
+            agent.SetDestination(transform.position);
+        }
+
 
         transform.LookAt(player);
-    }
-    private void ResetAttack()
-    {
-        alreadyAttacked = false;
     }
 
     public void TakeDamage(int damage)

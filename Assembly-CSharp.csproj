@@ -67,8 +67,8 @@
     <Compile Include="Assets\Game\Characters\Hero\Scriots\Look.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyEventController.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyAnimController.cs" />
+    <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\Move.cs" />
-    <Compile Include="Assets\Game\Characters\Enemy\Scripts\TestScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -1,26 +1,37 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static EnemyEventController;
 
 public class EnemyAnimController : MonoBehaviour
 {
     [SerializeField] private Animator _animator;
+    public EnemyEventController enemyEventController;
 
     private void Start()
     {
-        EnemyEventController.enemyAnimations += OnEnemyAnimations;
+        //enemyEventController = GameObject.Find("EnemyEvent").GetComponent<EnemyEventController>();
+        enemyEventController.enemyAnimations += OnEnemyAnimations;
     }
-    private void OnEnemyAnimations(AnimationType animationType)
+    private void OnEnemyAnimations(string pos)
     {
-        switch (animationType)
+        switch (pos)
         {
-            case AnimationType.Idle:        
+            case "Idle":
                 _animator.SetBool("toWalk", false);
+                _animator.SetBool("toAttack", false);
+                _animator.SetBool("toIdle", true);
                 break;
 
-            case AnimationType.Patrolling:  
+            case "Patrolling":                
+                _animator.SetBool("toAttack", false);
+                _animator.SetBool("toIdle", false);
                 _animator.SetBool("toWalk", true);
+                break;
+
+            case "AttackPlayer":
+                _animator.SetBool("toWalk", false);
+                _animator.SetBool("toIdle", false);
+                _animator.SetBool("toAttack", true);                
                 break;
 
             default:
