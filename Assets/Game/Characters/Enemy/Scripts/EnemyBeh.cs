@@ -52,7 +52,7 @@ public class EnemyBeh : MonoBehaviour
     }
     private void Patrolling()
     {
-        Debug.Log("Патруль");
+        //Debug.Log("Патруль");
         if (isEnemyIdle)
         {
             enemyEventController.OnEnemyAnimations("Idle");
@@ -94,14 +94,14 @@ public class EnemyBeh : MonoBehaviour
     }
     private void ChasePlayer()
     {
-        Debug.Log("Преследование");
+        //Debug.Log("Преследование");
         agent.SetDestination(player.position);
         enemyEventController.OnEnemyAnimations("Patrolling");
     }
 
     private void AttackPlayer()
     {
-        Debug.Log("Атака");
+        //Debug.Log("Атака");
         if((player.position - transform.position).magnitude < 1)
         {
             enemyEventController.OnEnemyAnimations("AttackPlayer");

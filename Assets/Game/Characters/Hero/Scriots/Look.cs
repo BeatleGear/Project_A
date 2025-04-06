@@ -14,6 +14,7 @@ public class Look : MonoBehaviour
     Animator _animator;
 
     Vector3 _movementVector;
+    public Vector3 ForGun;
 
     float _minimumDistance = 0.01f;
 
@@ -37,6 +38,7 @@ public class Look : MonoBehaviour
         if (Physics.Raycast(ray, out hit, 100, LayerMask.GetMask("Ground")))
         {
             Vector3 toPoint = hit.point - this.transform.position;
+            ForGun = hit.point;
             if (toPoint.magnitude > _minimumDistance)
             {
                 float rotZ = Mathf.Atan2(toPoint.x, toPoint.z) * Mathf.Rad2Deg;
@@ -44,7 +46,7 @@ public class Look : MonoBehaviour
                 //Debug.Log(toPoint.magnitude);
             }
         }
-        Debug.DrawRay(ray.origin, ray.direction * 10, Color.yellow);
+        Debug.DrawRay(ray.origin, ray.direction * 20, Color.yellow);
         //Debug.Log(hit.point);
     }
     private Vector3 CalculateMovementVector()

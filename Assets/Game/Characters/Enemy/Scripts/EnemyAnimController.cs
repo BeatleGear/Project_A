@@ -9,7 +9,6 @@ public class EnemyAnimController : MonoBehaviour
 
     private void Start()
     {
-        //enemyEventController = GameObject.Find("EnemyEvent").GetComponent<EnemyEventController>();
         enemyEventController.enemyAnimations += OnEnemyAnimations;
     }
     private void OnEnemyAnimations(string pos)
