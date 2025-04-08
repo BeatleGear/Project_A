@@ -208,7 +208,7 @@ GameObject:
   - component: {fileID: 6942344262918038231}
   - component: {fileID: 7828464336600852198}
   - component: {fileID: 1195620226641254148}
-  - component: {fileID: -7328358693906810192}
+  - component: {fileID: 7628084256036829928}
   m_Layer: 0
   m_Name: Warzombie F Pedroso
   m_TagString: Enemy
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 640bb112454c3ca499f417e93d959aa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-7328358693906810192
+--- !u!114 &7628084256036829928
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -366,7 +366,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bdf00298c2d6544aa0763690fa838d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyEventController: {fileID: 1195620226641254148}
+  enemyEventDied: {fileID: 0}
   _health: 50
 --- !u!1 &1163144867904104932
 GameObject:

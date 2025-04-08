@@ -362,6 +362,7 @@
 "Assets/Game/Characters/Enemy/Scripts/EnemyAnimController.cs"
 "Assets/Game/Characters/Enemy/Scripts/EnemyBeh.cs"
 "Assets/Game/Characters/Enemy/Scripts/EnemyDamage.cs"
+"Assets/Game/Characters/Enemy/Scripts/EnemyDamageManager.cs"
 "Assets/Game/Characters/Enemy/Scripts/EnemyEventController.cs"
 "Assets/Game/Characters/Enemy/Scripts/EnemySpawner.cs"
 "Assets/Game/Characters/Hero/Scriots/AnimatorController.cs"

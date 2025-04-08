@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static EnemyDamageManager;
 
 public class Gun : MonoBehaviour
 {
-    public EnemyEventController enemyEventController;
+    public EnemyDamageManager enemyDamageManager;
+
+    public ParticleSystem MuzzleFlash;
 
     public float damage = 10f;
     public float range = 100f;
-    public float radius = 0.5f;
+    public float radius = 0.7f;
 
     Ray ray;
+    RaycastHit hit;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,25 +24,21 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (Input.GetButtonDown("Fire1"))
-        //{
-        //    Shoot();
-        //}
-        RaycastHit hit;
-        ray = new Ray(this.transform.position, transform.forward);
-        if(Physics.SphereCast(ray, radius, out hit, range))
-        {
-            Debug.Log("куда-то попали");
-            if(hit.transform.tag == "Enemy")
-            {
-                Debug.Log("Попали во врага");
-                enemyEventController.OnEnemyTakeDamage(damage);
-            }
-        }
+        if (Input.GetButtonDown("Fire1"))
+            Shoot();
+
         Debug.DrawRay(this.transform.position, transform.forward * 50, Color.red);
     }
     void Shoot()
     {
-
+        MuzzleFlash.Play();
+        ray = new Ray(this.transform.position, transform.forward);
+        if (Physics.SphereCast(ray, radius, out hit, range))
+        {
+            if (hit.transform.tag == "Enemy")
+            {
+                enemyDamageManager.OnEnemyTakeDamage(damage, hit.transform.name);
+            }
+        }
     }
 }

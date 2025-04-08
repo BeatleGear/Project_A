@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\Game\Characters\Hero\Scriots\AnimatorController.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\FollowingCamera.cs" />
+    <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyDamageManager.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyBeh.cs" />
     <Compile Include="Assets\Game\Characters\Weapons\Gun.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\TopDownController.cs" />
