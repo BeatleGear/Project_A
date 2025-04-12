@@ -13,12 +13,15 @@ public class EnemyBeh : MonoBehaviour
 
     public LayerMask whatIsGround, whatIsPlayer;
 
-    public float health;
-
     bool isEnemyIdle;
 
     float idleTime;
     float idleTimeToIdle = 3;
+
+    public Vector3 distanceToWalkPoint;
+    public Vector3 currentWalkPoint;
+    public int EnemyOnState;
+    public float EnemyDistanceToPoint;
 
     //Patrolling
     public Vector3 walkPoint;
@@ -29,15 +32,14 @@ public class EnemyBeh : MonoBehaviour
     public float timeBetweenAttacks;
 
     //States
-    public float sightRange, attackRange;
+    public float sightRange, attackRange, attackDistance;
     public bool playerInSightRange, playerInAttackRange;
     // Start is called before the first frame update
     void Start()
     {
-        //enemyEventController = GameObject.Find("EnemyEvent").GetComponent<EnemyEventController>();
         player = GameObject.Find("Pistol Idle").GetComponent<Transform>();
         isEnemyIdle = true;
-        idleTime = idleTimeToIdle;
+        idleTime = Random.Range(1, 5);
     }
 
     // Update is called once per frame
@@ -73,11 +75,26 @@ public class EnemyBeh : MonoBehaviour
                 SearchWalkPoint();
             if (walkPointSet)
                 agent.SetDestination(walkPoint);
-            Vector3 distanceToWalkPoint = transform.position - walkPoint;
+
+            currentWalkPoint = distanceToWalkPoint;
+
+            distanceToWalkPoint = transform.position - walkPoint;
+
+            EnemyDistanceToPoint = (currentWalkPoint - distanceToWalkPoint).magnitude;
+            if (((currentWalkPoint - distanceToWalkPoint).magnitude) < 0.001)
+                EnemyOnState++;
+            if (EnemyOnState > 20)
+            {
+                walkPointSet = false;
+                isEnemyIdle = true;
+                EnemyOnState = 0;
+            }
+
             if (distanceToWalkPoint.magnitude < 1f)
             {
                 walkPointSet = false;
                 isEnemyIdle = true;
+                EnemyOnState = 0;
             }                
         }
     }
@@ -101,26 +118,13 @@ public class EnemyBeh : MonoBehaviour
 
     private void AttackPlayer()
     {
-        //Debug.Log("Атака");
-        if((player.position - transform.position).magnitude < 1)
+        if ((player.position - transform.position).magnitude < attackDistance)
         {
+            Debug.Log("Должен атаковать");
             enemyEventController.OnEnemyAnimations("AttackPlayer");
             agent.SetDestination(transform.position);
         }
-
-
         transform.LookAt(player);
-    }
-
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-
-        if (health <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
-    }
-    private void DestroyEnemy()
-    {
-        Destroy(gameObject);
     }
 
     private void OnDrawGizmosSelected()

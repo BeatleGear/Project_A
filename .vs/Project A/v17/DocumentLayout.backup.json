@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "E:\\Unity User\\Project A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\enemy\\scripts\\enemydamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\enemy\\scripts\\enemydamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\enemydamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\weapons\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\weapons\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\weapons\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\other\\fpscapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\other\\fpscapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\enemy\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\enemy\\scripts\\enemybeh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\enemybeh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\enemy\\scripts\\forragdoll\\firstexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\forragdoll\\firstexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\enemy\\scripts\\forragdoll\\ragdollhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\forragdoll\\ragdollhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\enemy\\scripts\\forragdoll\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\forragdoll\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\enemy\\scripts\\enemyeventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,28 +43,8 @@
       "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\enemyanimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\enemy\\scripts\\enemybeh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\enemybeh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\hero\\scriots\\look.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\look.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\hero\\scriots\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\hero\\scriots\\followingcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\followingcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\enemy\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\enemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity User\\Project A\\assets\\game\\characters\\enemy\\scripts\\enemyeventdied.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\game\\characters\\enemy\\scripts\\enemyeventdied.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\enemy\\scripts\\forragdoll\\enemyview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\forragdoll\\enemyview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,44 +54,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EnemyEventDied.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventDied.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventDied.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventDied.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventDied.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-07T20:54:36.777Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EnemyEventController.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventController.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventController.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventController.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAlAAAAAAAAAA==",
+              "Title": "FPSCapper.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Other\\FPSCapper.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Other\\FPSCapper.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Other\\FPSCapper.cs",
+              "RelativeToolTip": "Assets\\Game\\Other\\FPSCapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:35:22.181Z"
+              "WhenOpened": "2025-04-12T10:08:25.155Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EnemyDamage.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyDamage.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyDamage.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyDamage.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyDamage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "EnemySpawner.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemySpawner.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemySpawner.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemySpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T18:57:30.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T18:53:26.75Z"
             },
             {
               "$type": "Document",
@@ -97,22 +89,47 @@
               "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Weapons\\Gun.cs",
               "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Weapons\\Gun.cs",
               "RelativeToolTip": "Assets\\Game\\Characters\\Weapons\\Gun.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T17:27:34.297Z",
+              "WhenOpened": "2025-04-10T18:51:03.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Look.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAA4AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "EnemyDamage.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyDamage.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyDamage.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyDamage.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T18:38:15.944Z"
+              "WhenOpened": "2025-04-10T18:16:13.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EnemyAnimController.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyAnimController.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyAnimController.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyAnimController.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyAnimController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:27:06.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EnemyEventController.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventController.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventController.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventController.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyEventController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:26:31.275Z"
             },
             {
               "$type": "Document",
@@ -122,57 +139,57 @@
               "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyBeh.cs",
               "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyBeh.cs",
               "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyBeh.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwDkAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-22T09:49:38.302Z"
+              "WhenOpened": "2025-04-10T16:21:05.153Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EnemySpawner.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemySpawner.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemySpawner.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemySpawner.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemySpawner.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "FirstExample.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\FirstExample.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\FirstExample.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\FirstExample.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\FirstExample.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-29T20:15:52.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnemyAnimController.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyAnimController.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyAnimController.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyAnimController.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyAnimController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T19:08:46.318Z"
+              "WhenOpened": "2025-04-09T18:48:11.806Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "FollowingCamera.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\FollowingCamera.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\FollowingCamera.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\FollowingCamera.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\FollowingCamera.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwBgAAAAAAAAAAAAAAA==",
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\Enemy.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\Enemy.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\Enemy.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\Enemy.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAiwAwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T17:02:09.445Z"
+              "WhenOpened": "2025-04-09T18:44:07.358Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Move.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAnAAAAAAAAAA==",
+              "Title": "RagdollHandler.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\RagdollHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\RagdollHandler.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\RagdollHandler.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\RagdollHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T20:25:35.363Z"
+              "WhenOpened": "2025-04-09T18:39:20.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnemyView.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\EnemyView.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\EnemyView.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\EnemyView.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\EnemyView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T18:35:09.608Z"
             }
           ]
         }

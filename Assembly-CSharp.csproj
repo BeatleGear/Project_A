@@ -63,15 +63,20 @@
     <Compile Include="Assets\Game\Characters\Hero\Scriots\AnimatorController.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\FollowingCamera.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyDamageManager.cs" />
+    <Compile Include="Assets\Game\Other\FPSCapper.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyBeh.cs" />
     <Compile Include="Assets\Game\Characters\Weapons\Gun.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\TopDownController.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\Look.cs" />
+    <Compile Include="Assets\Game\Characters\Enemy\Scripts\ForRagdoll\RagdollHandler.cs" />
+    <Compile Include="Assets\Game\Characters\Enemy\Scripts\ForRagdoll\Enemy.cs" />
+    <Compile Include="Assets\Game\Characters\Enemy\Scripts\ForRagdoll\FirstExample.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyDamage.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyEventController.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyAnimController.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\Move.cs" />
+    <Compile Include="Assets\Game\Characters\Enemy\Scripts\ForRagdoll\EnemyView.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1020,6 +1025,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="BzKovSoft.RagdollHelper.Editor.csproj">
+      <Project>{040E49A6-9006-2574-8FD3-4D760B6E058F}</Project>
+      <Name>BzKovSoft.RagdollHelper.Editor</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

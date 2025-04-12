@@ -13,11 +13,14 @@ public class Gun : MonoBehaviour
     public float range = 100f;
     public float radius = 0.7f;
 
+    [SerializeField]LayerMask Enemy;
+
     Ray ray;
     RaycastHit hit;
     // Start is called before the first frame update
     void Start()
     {
+        Enemy = LayerMask.NameToLayer("Enemy");
         ray = new Ray(this.transform.position, transform.forward);            
     }
 
@@ -35,10 +38,18 @@ public class Gun : MonoBehaviour
         ray = new Ray(this.transform.position, transform.forward);
         if (Physics.SphereCast(ray, radius, out hit, range))
         {
-            if (hit.transform.tag == "Enemy")
+            EnemyDamage enemyDamage;
+            enemyDamage = hit.transform.GetComponentInParent<EnemyDamage>();
+            if (enemyDamage != null)
             {
-                enemyDamageManager.OnEnemyTakeDamage(damage, hit.transform.name);
+                Debug.Log("Попали во врага");
+                enemyDamage.EnemyTakeDamage(damage, hit.transform.name);
             }
+            //if (hit.transform.tag == "Enemy")
+            //{
+            //    Debug.Log("Попали во врага");
+            //    enemyDamageManager.OnEnemyTakeDamage(damage, hit.collider.name);
+            //}
         }
     }
 }
