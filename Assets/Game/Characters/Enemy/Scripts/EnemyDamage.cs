@@ -12,15 +12,16 @@ public class EnemyDamage : MonoBehaviour
     [SerializeField] EnemyBeh _enemyBeh;
     [SerializeField] CapsuleCollider _capsuleCollider;
     [SerializeField] NavMeshAgent _agent;
+    [SerializeField] RagdollHandler _ragdollHandler;
 
     public EnemyDamageManager enemyDamageManager;
 
     private void Start()
     {
         enemyDamageManager = GameObject.Find("Directional Light").GetComponent<EnemyDamageManager>();
-        enemyDamageManager.enemyTakeDamage += OnEnemyTakeDamage;
+        //enemyDamageManager.enemyTakeDamage += OnEnemyTakeDamage;
     }
-    public void EnemyTakeDamage(float damage, string name)
+    public void EnemyTakeDamage(float damage, string name, Vector3 force, Vector3 hitPoint)
     {
         Debug.Log(this.gameObject.name);
         Debug.Log(name);
@@ -30,6 +31,7 @@ public class EnemyDamage : MonoBehaviour
         if (_health <= 0)
         {
             Die();
+            _ragdollHandler.Hit(force, hitPoint);
         }
     }
 
@@ -53,8 +55,8 @@ public class EnemyDamage : MonoBehaviour
         _capsuleCollider.enabled = false;
         _enemyBeh.enabled = false;
         _agent.enabled = false;
-        _enemy.Kill();
-        enemyDamageManager.enemyTakeDamage -= OnEnemyTakeDamage;
+        _enemy.Kill();        
+        //enemyDamageManager.enemyTakeDamage -= OnEnemyTakeDamage;
         //Destroy(gameObject, 0.5f);        
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class RagdollHandler : MonoBehaviour
@@ -25,5 +26,12 @@ public class RagdollHandler : MonoBehaviour
         {
             rigidbody.isKinematic = true;
         }
+    }
+
+    public void Hit(Vector3 force, Vector3 hitPosition)
+    {
+        Rigidbody inJuredRigidbody = _rigidbodies.OrderBy(rigidbody  => Vector3.Distance(rigidbody.position, hitPosition)).First();
+
+        inJuredRigidbody.AddForceAtPosition(force, hitPosition, ForceMode.Impulse);
     }
 }

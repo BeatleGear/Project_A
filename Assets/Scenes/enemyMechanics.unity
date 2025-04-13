@@ -280,6 +280,7 @@ MonoBehaviour:
   Enemy:
     serializedVersion: 2
     m_Bits: 128
+  _force: 300
 --- !u!1 &216412651 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2715428015869229026, guid: 59c8e7780aa6a6148acaedede7ee6b3d, type: 3}

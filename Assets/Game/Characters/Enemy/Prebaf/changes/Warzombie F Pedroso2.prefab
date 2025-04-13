@@ -1659,6 +1659,10 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
+  distanceToWalkPoint: {x: 0, y: 0, z: 0}
+  currentWalkPoint: {x: 0, y: 0, z: 0}
+  EnemyOnState: 0
+  EnemyDistanceToPoint: 0
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 7
   timeBetweenAttacks: 0.5
@@ -1755,6 +1759,7 @@ MonoBehaviour:
   _enemyBeh: {fileID: 8588900576643122887}
   _capsuleCollider: {fileID: 4179406945850309277}
   _agent: {fileID: 6877542938674154977}
+  _ragdollHandler: {fileID: 3036178768690526227}
   enemyDamageManager: {fileID: 0}
 --- !u!114 &6612301748292376265
 MonoBehaviour:

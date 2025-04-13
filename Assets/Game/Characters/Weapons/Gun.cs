@@ -14,6 +14,7 @@ public class Gun : MonoBehaviour
     public float radius = 0.7f;
 
     [SerializeField]LayerMask Enemy;
+    [SerializeField, Range(1, 1000)] float _force; 
 
     Ray ray;
     RaycastHit hit;
@@ -43,7 +44,8 @@ public class Gun : MonoBehaviour
             if (enemyDamage != null)
             {
                 Debug.Log("Попали во врага");
-                enemyDamage.EnemyTakeDamage(damage, hit.transform.name);
+                Vector3 forceDirection = (hit.point - this.transform.position).normalized;
+                enemyDamage.EnemyTakeDamage(damage, hit.transform.name, forceDirection * _force, hit.point);
             }
             //if (hit.transform.tag == "Enemy")
             //{
