@@ -63,8 +63,11 @@
     <Compile Include="Assets\Game\Characters\Hero\Scriots\AnimatorController.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\FollowingCamera.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyDamageManager.cs" />
+    <Compile Include="Assets\Game\Items\Scripts\ItemPickUp.cs" />
     <Compile Include="Assets\Game\Other\FPSCapper.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyBeh.cs" />
+    <Compile Include="Assets\Game\Items\Scripts\Item.cs" />
+    <Compile Include="Assets\Game\Invertory\Scripts\Inventory.cs" />
     <Compile Include="Assets\Game\Characters\Weapons\Gun.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\TopDownController.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\Look.cs" />
@@ -73,10 +76,15 @@
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\ForRagdoll\FirstExample.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyDamage.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyEventController.cs" />
+    <Compile Include="Assets\Game\Invertory\Scripts\InventorySlot.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyAnimController.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemySpawner.cs" />
+    <Compile Include="Assets\Game\Invertory\Scripts\InventoryUI.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\Move.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\ForRagdoll\EnemyView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\DelthorGames\MP7\HowToUse.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -949,6 +957,10 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">

@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using static EnemyDamageManager;
+using UnityEngine.EventSystems;
 
 public class Gun : MonoBehaviour
 {
@@ -28,6 +26,9 @@ public class Gun : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
         if (Input.GetButtonDown("Fire1"))
             Shoot();
 

@@ -329,6 +329,7 @@
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/BzKovSoft.RagdollHelper.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.ref.dll"
@@ -376,6 +377,11 @@
 "Assets/Game/Characters/Hero/Scriots/Move.cs"
 "Assets/Game/Characters/Hero/Scriots/TopDownController.cs"
 "Assets/Game/Characters/Weapons/Gun.cs"
+"Assets/Game/Invertory/Scripts/Inventory.cs"
+"Assets/Game/Invertory/Scripts/InventorySlot.cs"
+"Assets/Game/Invertory/Scripts/InventoryUI.cs"
+"Assets/Game/Items/Scripts/Item.cs"
+"Assets/Game/Items/Scripts/ItemPickUp.cs"
 "Assets/Game/Other/FPSCapper.cs"
 -langversion:9.0
 

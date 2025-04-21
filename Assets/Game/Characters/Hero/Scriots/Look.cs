@@ -1,7 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.EventSystems;
 
 public class Look : MonoBehaviour
 {
@@ -25,6 +23,9 @@ public class Look : MonoBehaviour
 
     void Update()
     {
+        if (EventSystem.current.IsPointerOverGameObject())
+            return;
+
         _movementVector = CalculateMovementVector();
 
         UpdateAnimatorVariables();
