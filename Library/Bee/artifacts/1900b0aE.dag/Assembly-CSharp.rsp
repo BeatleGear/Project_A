@@ -383,6 +383,11 @@
 "Assets/Game/Items/Scripts/Item.cs"
 "Assets/Game/Items/Scripts/ItemPickUp.cs"
 "Assets/Game/Other/FPSCapper.cs"
+"Assets/Game/Weapons/Scripts/InventoryWeapon.cs"
+"Assets/Game/Weapons/Scripts/InventoryWeaponSlot.cs"
+"Assets/Game/Weapons/Scripts/InventoryWeaponUI.cs"
+"Assets/Game/Weapons/Scripts/Weapon.cs"
+"Assets/Game/Weapons/Scripts/WeaponPickUp.cs"
 -langversion:9.0
 
 /deterministic

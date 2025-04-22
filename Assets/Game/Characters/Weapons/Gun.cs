@@ -48,11 +48,6 @@ public class Gun : MonoBehaviour
                 Vector3 forceDirection = (hit.point - this.transform.position).normalized;
                 enemyDamage.EnemyTakeDamage(damage, hit.transform.name, forceDirection * _force, hit.point);
             }
-            //if (hit.transform.tag == "Enemy")
-            //{
-            //    Debug.Log("Попали во врага");
-            //    enemyDamageManager.OnEnemyTakeDamage(damage, hit.collider.name);
-            //}
         }
     }
 }

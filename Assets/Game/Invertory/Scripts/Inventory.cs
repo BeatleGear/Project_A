@@ -22,7 +22,7 @@ public class Inventory : MonoBehaviour
 
     public int space = 11;
 
-    public List<Item> items = new List<Item>();
+    public List<Item> items = new();
     public bool Add (Item item)
     {
         if (!item.isDefaultItem)

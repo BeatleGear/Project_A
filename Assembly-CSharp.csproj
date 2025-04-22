@@ -62,11 +62,16 @@
   <ItemGroup>
     <Compile Include="Assets\Game\Characters\Hero\Scriots\AnimatorController.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\FollowingCamera.cs" />
+    <Compile Include="Assets\Game\Weapons\Scripts\WeaponPickUp.cs" />
+    <Compile Include="Assets\Game\Weapons\Scripts\Weapon.cs" />
+    <Compile Include="Assets\Game\Weapons\Scripts\InventoryWeapon.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyDamageManager.cs" />
     <Compile Include="Assets\Game\Items\Scripts\ItemPickUp.cs" />
     <Compile Include="Assets\Game\Other\FPSCapper.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyBeh.cs" />
+    <Compile Include="Assets\Game\Weapons\Scripts\InventoryWeaponSlot.cs" />
     <Compile Include="Assets\Game\Items\Scripts\Item.cs" />
+    <Compile Include="Assets\Game\Weapons\Scripts\InventoryWeaponUI.cs" />
     <Compile Include="Assets\Game\Invertory\Scripts\Inventory.cs" />
     <Compile Include="Assets\Game\Characters\Weapons\Gun.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\TopDownController.cs" />

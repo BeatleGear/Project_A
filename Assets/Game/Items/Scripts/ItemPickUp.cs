@@ -12,8 +12,6 @@ public class ItemPickUp : MonoBehaviour
 
     public void PickUp()
     {
-
-
         if (Inventory.instance.Add(item))
         {
             Debug.Log("Подобрали " + item.name);
