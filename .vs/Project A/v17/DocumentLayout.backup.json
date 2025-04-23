@@ -3,40 +3,24 @@
   "WorkspaceRootPath": "E:\\Unity User\\Project A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\weapons\\scripts\\inventoryweaponslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\inventoryweaponslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\weapons\\scripts\\weaponswiching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\weaponswiching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\weapons\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\weapons\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\weapons\\scripts\\inventoryweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\inventoryweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\weapons\\scripts\\inventory\\inventoryweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\inventory\\inventoryweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\weapons\\scripts\\weaponpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\weaponpickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\invertory\\scripts\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\invertory\\scripts\\inventoryui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\invertory\\scripts\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\invertory\\scripts\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\items\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\items\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\invertory\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\invertory\\scripts\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\items\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\items\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\weapons\\scripts\\inventory\\inventoryweaponslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\inventory\\inventoryweaponslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,122 +35,64 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InventoryWeaponSlot.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\InventoryWeaponSlot.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\InventoryWeaponSlot.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\InventoryWeaponSlot.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\InventoryWeaponSlot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Title": "WeaponSwiching.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\WeaponSwiching.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\WeaponSwiching.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\WeaponSwiching.cs",
+              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\WeaponSwiching.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T21:07:51.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WeaponPickUp.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\WeaponPickUp.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\WeaponPickUp.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\WeaponPickUp.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\WeaponPickUp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:42:18.885Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InventoryWeapon.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\InventoryWeapon.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\InventoryWeapon.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\InventoryWeapon.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\InventoryWeapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T20:55:02.662Z",
+              "WhenOpened": "2025-04-23T20:18:51.794Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Weapon.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Weapon.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Weapon.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Weapon.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Weapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Title": "Gun.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Gun.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Gun.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Gun.cs",
+              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Gun.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T19:34:45.872Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 3,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ItemPickUp.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\ItemPickUp.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Items\\Scripts\\ItemPickUp.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\ItemPickUp.cs",
-              "RelativeToolTip": "Assets\\Game\\Items\\Scripts\\ItemPickUp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T21:33:08.788Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Inventory.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\Inventory.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Invertory\\Scripts\\Inventory.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\Inventory.cs",
-              "RelativeToolTip": "Assets\\Game\\Invertory\\Scripts\\Inventory.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvxkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T21:27:01.312Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InventorySlot.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\InventorySlot.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Invertory\\Scripts\\InventorySlot.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\InventorySlot.cs",
-              "RelativeToolTip": "Assets\\Game\\Invertory\\Scripts\\InventorySlot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T22:01:06.914Z",
+              "WhenOpened": "2025-04-23T20:09:21.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "InventoryUI.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\InventoryUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Invertory\\Scripts\\InventoryUI.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\InventoryUI.cs",
-              "RelativeToolTip": "Assets\\Game\\Invertory\\Scripts\\InventoryUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAlAAAAAAAAAA==",
+              "Title": "InventoryWeaponSlot.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponSlot.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponSlot.cs",
+              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T21:56:11.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T20:06:44.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Item.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\Item.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Items\\Scripts\\Item.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\Item.cs",
-              "RelativeToolTip": "Assets\\Game\\Items\\Scripts\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "InventoryWeapon.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeapon.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeapon.cs",
+              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-20T21:14:37.387Z"
+              "WhenOpened": "2025-04-23T20:06:27.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Weapon.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Weapon.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Weapon.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Weapon.cs",
+              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Weapon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:34:45.872Z"
             }
           ]
         }

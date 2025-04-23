@@ -7,7 +7,7 @@ public class InventoryWeaponUI : MonoBehaviour
 
     InventoryWeapon inventoryWeapon;
 
-    InventoryWeaponSlot[] WeaponSlots;
+    public InventoryWeaponSlot[] WeaponSlots;
     void Start()
     {
         inventoryWeapon = InventoryWeapon.instanceWeapon;

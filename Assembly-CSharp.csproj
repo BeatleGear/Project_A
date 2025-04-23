@@ -61,27 +61,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Game\Characters\Hero\Scriots\AnimatorController.cs" />
+    <Compile Include="Assets\Game\Weapons\Scripts\Inventory\WeaponPickUp.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\FollowingCamera.cs" />
-    <Compile Include="Assets\Game\Weapons\Scripts\WeaponPickUp.cs" />
     <Compile Include="Assets\Game\Weapons\Scripts\Weapon.cs" />
-    <Compile Include="Assets\Game\Weapons\Scripts\InventoryWeapon.cs" />
+    <Compile Include="Assets\Game\Weapons\Scripts\WeaponSwitching.cs" />
+    <Compile Include="Assets\Game\Weapons\Scripts\Inventory\InventoryWeaponSlot.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyDamageManager.cs" />
     <Compile Include="Assets\Game\Items\Scripts\ItemPickUp.cs" />
     <Compile Include="Assets\Game\Other\FPSCapper.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyBeh.cs" />
-    <Compile Include="Assets\Game\Weapons\Scripts\InventoryWeaponSlot.cs" />
     <Compile Include="Assets\Game\Items\Scripts\Item.cs" />
-    <Compile Include="Assets\Game\Weapons\Scripts\InventoryWeaponUI.cs" />
     <Compile Include="Assets\Game\Invertory\Scripts\Inventory.cs" />
-    <Compile Include="Assets\Game\Characters\Weapons\Gun.cs" />
+    <Compile Include="Assets\Game\Weapons\Scripts\Inventory\InventoryWeaponUI.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\TopDownController.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\Look.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\ForRagdoll\RagdollHandler.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\ForRagdoll\Enemy.cs" />
+    <Compile Include="Assets\Game\Weapons\Scripts\Inventory\InventoryWeapon.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\ForRagdoll\FirstExample.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyDamage.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyEventController.cs" />
     <Compile Include="Assets\Game\Invertory\Scripts\InventorySlot.cs" />
+    <Compile Include="Assets\Game\Weapons\Scripts\Gun.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyAnimController.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\Game\Invertory\Scripts\InventoryUI.cs" />

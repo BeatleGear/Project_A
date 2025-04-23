@@ -11,7 +11,7 @@ public class Gun : MonoBehaviour
     public float range = 100f;
     public float radius = 0.7f;
 
-    [SerializeField]LayerMask Enemy;
+    [SerializeField] LayerMask Enemy;
     [SerializeField, Range(1, 1000)] float _force; 
 
     Ray ray;

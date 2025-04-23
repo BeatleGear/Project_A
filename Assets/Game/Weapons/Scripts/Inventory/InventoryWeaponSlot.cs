@@ -14,7 +14,7 @@ public class InventoryWeaponSlot : MonoBehaviour
 
         icon.sprite = weapon.WeaponIcon;
         icon.enabled = true;
-        removeButton.interactable = true;
+        removeButton.interactable = false;
         Debug.Log("—читываем картинку");
     }
     public void ClearSlot()
