@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Pistol
   m_EditorClassIdentifier: 
   WeaponName: Pistol
-  WeaponIcon: {fileID: 21300000, guid: 2ad0f36a9d0bf82469801b1dfbd2dc92, type: 3}
+  WeaponIcon: {fileID: 21300000, guid: a7f18a3010a80d54499c51f1080c05d2, type: 3}
   isDefaultItem: 0

@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Uzi
   m_EditorClassIdentifier: 
   WeaponName: Uzi
-  WeaponIcon: {fileID: 21300000, guid: db65f3f7493e16641b8b1f89c349f046, type: 3}
+  WeaponIcon: {fileID: 21300000, guid: 3e969bdd288884c4b8100efbf7d14cd4, type: 3}
   isDefaultItem: 0

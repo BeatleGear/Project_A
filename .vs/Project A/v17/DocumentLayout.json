@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "E:\\Unity User\\Project A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\weapons\\scripts\\weaponswitching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\weaponswitching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\enemy\\scripts\\forragdoll\\firstexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\forragdoll\\firstexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\weapons\\scripts\\inventory\\inventoryweaponslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\inventory\\inventoryweaponslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\invertory\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\invertory\\scripts\\healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\weapons\\scripts\\inventory\\inventoryweaponui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\inventory\\inventoryweaponui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\weapons\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\weapons\\scripts\\inventory\\inventoryweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\inventory\\inventoryweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\weapons\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\hero\\scriots\\herohealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\herohealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,89 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InventoryWeaponUI.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponUI.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponUI.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T20:59:57.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeaponSwitching.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\WeaponSwitching.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\WeaponSwitching.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\WeaponSwitching.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\WeaponSwitching.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T20:19:27.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Gun.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Gun.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Gun.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Gun.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Gun.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T20:09:21.894Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InventoryWeapon.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeapon.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeapon.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeapon.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T20:06:27.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Weapon.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Weapon.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Weapon.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Weapon.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Weapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T19:34:45.872Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "InventoryWeaponSlot.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponSlot.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponSlot.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponSlot.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponSlot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FirstExample.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\FirstExample.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\FirstExample.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\FirstExample.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\ForRagdoll\\FirstExample.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T20:06:44.192Z",
+              "WhenOpened": "2025-04-24T22:23:56.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HealthBar.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\HealthBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Invertory\\Scripts\\HealthBar.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\HealthBar.cs",
+              "RelativeToolTip": "Assets\\Game\\Invertory\\Scripts\\HealthBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:55:06.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HeroHealth.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\HeroHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\HeroHealth.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\HeroHealth.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\HeroHealth.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T21:40:44.633Z",
               "EditorCaption": ""
             }
           ]

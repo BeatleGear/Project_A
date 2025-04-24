@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\Unity User\\Project A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\weapons\\scripts\\weaponswiching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\weaponswiching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\hero\\scriots\\herohealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\herohealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\weapons\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\weapons\\scripts\\weaponswitching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\weaponswitching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\weapons\\scripts\\inventory\\inventoryweaponui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\inventory\\inventoryweaponui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\weapons\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\inventory\\inventoryweapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\weapons\\scripts\\inventory\\inventoryweaponslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\inventory\\inventoryweaponslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\weapons\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,19 +39,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WeaponSwiching.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\WeaponSwiching.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\WeaponSwiching.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\WeaponSwiching.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\WeaponSwiching.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "HeroHealth.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\HeroHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\HeroHealth.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\HeroHealth.cs",
+              "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\HeroHealth.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T20:18:51.794Z",
+              "WhenOpened": "2025-04-24T21:40:44.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryWeaponUI.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponUI.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponUI.cs",
+              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T20:59:57.783Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "WeaponSwitching.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\WeaponSwitching.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\WeaponSwitching.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\WeaponSwitching.cs",
+              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\WeaponSwitching.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T20:19:27.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Gun.cs",
               "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Gun.cs",
               "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Gun.cs",
@@ -55,36 +84,23 @@
               "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Gun.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwC0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T20:09:21.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T20:09:21.894Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "InventoryWeaponSlot.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponSlot.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponSlot.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponSlot.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeaponSlot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T20:06:44.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "InventoryWeapon.cs",
               "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeapon.cs",
               "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeapon.cs",
               "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeapon.cs",
               "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Inventory\\InventoryWeapon.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T20:06:27.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Weapon.cs",
               "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Weapon.cs",
               "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Weapon.cs",

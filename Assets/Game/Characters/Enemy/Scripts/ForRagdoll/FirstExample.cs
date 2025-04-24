@@ -12,12 +12,12 @@ public class FirstExample : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyUp(KeyCode.F))
-        {
-            _capsuleCollider.enabled = false;
-            _enemyBeh.enabled = false;
-            _agent.enabled = false;
-            _enemy.Kill();            
-        }
+        //if (Input.GetKeyUp(KeyCode.F))
+        //{
+        //    _capsuleCollider.enabled = false;
+        //    _enemyBeh.enabled = false;
+        //    _agent.enabled = false;
+        //    _enemy.Kill();            
+        //}
     }
 }
