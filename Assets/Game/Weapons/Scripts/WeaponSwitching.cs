@@ -22,6 +22,8 @@ public class WeaponSwitching : MonoBehaviour
 
             if (Input.GetAxis("Mouse ScrollWheel") > 0f)
             {
+                if (Input.GetKey(KeyCode.LeftControl))
+                    return;
                 if (SelectedWeapon >= transform.childCount - 1)
                     SelectedWeapon = 0;
                 else
@@ -29,6 +31,8 @@ public class WeaponSwitching : MonoBehaviour
             }
             if (Input.GetAxis("Mouse ScrollWheel") < 0f)
             {
+                if (Input.GetKey(KeyCode.LeftControl))
+                    return;
                 if (SelectedWeapon <= 0)
                     SelectedWeapon = transform.childCount - 1;
                 else

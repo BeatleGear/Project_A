@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FollowingCamera : MonoBehaviour
@@ -8,27 +10,77 @@ public class FollowingCamera : MonoBehaviour
     [SerializeField] GameObject _mainCharacter;
 
     [Header("Camera propertys")]
-    [SerializeField] float _returnSpeed;
-    [SerializeField] float _height;
-    [SerializeField] float _rearDistance;
+    [SerializeField] private float _returnSpeed;
+    [SerializeField] private float _height;
+    [SerializeField] private float _rearDistance;
+
+    private float _rotationY;
+
+    public bool isRotate = false;
+    public bool is—hange = false;
+
+    public int change—ounter;
+
+    public float RotationSpeed = 5.0f;
+
+    private float lastTimeToLook;
 
     Vector3 currentVector;
     // Start is called before the first frame update
     void Start()
     {
-        this.transform.position = new Vector3(_mainCharacter.transform.position.x, _mainCharacter.transform.position.y + _height, _mainCharacter.transform.position.z - _rearDistance);
-        this.transform.rotation = Quaternion.LookRotation(_mainCharacter.transform.position - this.transform.position);
+        transform.position = new Vector3(_mainCharacter.transform.position.x, _mainCharacter.transform.position.y + _height, _mainCharacter.transform.position.z - _rearDistance);
+        transform.rotation = Quaternion.LookRotation(_mainCharacter.transform.position - transform.position);
     }
+    private void Update()
+    {
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            if (Input.GetAxis("Mouse ScrollWheel") > 0f)
+            {
+                change—ounter = (change—ounter + 1) % 4;
+                lastTimeToLook = Time.time + 3;
+            }
+            if (Input.GetAxis("Mouse ScrollWheel") < 0f)
+            {
+                if ((change—ounter--) <= 0)
+                    change—ounter = 3;
+                lastTimeToLook = Time.time + 3;
+            }
+        }
 
+    }
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         CameraMove();
     }
 
     void CameraMove()
     {
-        currentVector = new Vector3(_mainCharacter.transform.position.x, _mainCharacter.transform.position.y + _height, _mainCharacter.transform.position.z - _rearDistance);
-        this.transform.position = Vector3.Lerp(this.transform.position, currentVector, _returnSpeed * Time.deltaTime);
+        switch (change—ounter)
+        {
+            case 0:
+                currentVector = new Vector3(_mainCharacter.transform.position.x, _mainCharacter.transform.position.y + _height, _mainCharacter.transform.position.z - _rearDistance);
+                break;
+            case 1:
+                currentVector = new Vector3(_mainCharacter.transform.position.x - _rearDistance, _mainCharacter.transform.position.y + _height, _mainCharacter.transform.position.z);
+                break;
+            case 2:
+                currentVector = new Vector3(_mainCharacter.transform.position.x, _mainCharacter.transform.position.y + _height, _mainCharacter.transform.position.z + _rearDistance);
+                break;
+            case 3:
+                currentVector = new Vector3(_mainCharacter.transform.position.x + _rearDistance, _mainCharacter.transform.position.y + _height, _mainCharacter.transform.position.z);
+                break;
+            default:
+                break;
+        }
+
+        transform.position = Vector3.Lerp(transform.position, currentVector, _returnSpeed * Time.deltaTime);
+        if (Time.time <= lastTimeToLook)
+        {
+            transform.rotation = Quaternion.LookRotation(_mainCharacter.transform.position - transform.position); 
+        }
+
     }
 }

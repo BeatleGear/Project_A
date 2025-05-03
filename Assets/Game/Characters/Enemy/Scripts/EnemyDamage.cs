@@ -35,20 +35,20 @@ public class EnemyDamage : MonoBehaviour
         }
     }
 
-    public void OnEnemyTakeDamage(float damage, string name)
-    {
-        Debug.Log(this.gameObject.name);
-        Debug.Log(name);
-        if (this.gameObject.name == name)
-        {
-            _health -= damage;            
-            Debug.Log(_health);
-            if (_health <= 0)
-            {
-                Die();
-            }
-        }
-    }
+    //public void OnEnemyTakeDamage(float damage, string name)
+    //{
+    //    Debug.Log(this.gameObject.name);
+    //    Debug.Log(name);
+    //    if (this.gameObject.name == name)
+    //    {
+    //        _health -= damage;            
+    //        Debug.Log(_health);
+    //        if (_health <= 0)
+    //        {
+    //            Die();
+    //        }
+    //    }
+    //}
 
     void Die()
     {

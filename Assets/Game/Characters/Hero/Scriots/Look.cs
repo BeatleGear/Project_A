@@ -11,6 +11,9 @@ public class Look : MonoBehaviour
     [SerializeField]
     Animator _animator;
 
+    public float oldH;
+    public float oldV;
+
     Vector3 _movementVector;
     public Vector3 ForGun;
 
@@ -44,11 +47,9 @@ public class Look : MonoBehaviour
             {
                 float rotZ = Mathf.Atan2(toPoint.x, toPoint.z) * Mathf.Rad2Deg;
                 this.transform.rotation = Quaternion.Euler(0f, rotZ, 0f);
-                //Debug.Log(toPoint.magnitude);
             }
         }
-        Debug.DrawRay(ray.origin, ray.direction * 20, Color.yellow);
-        //Debug.Log(hit.point);
+        Debug.DrawRay(ray.origin, ray.direction * 50, Color.yellow);
     }
     private Vector3 CalculateMovementVector()
     {
@@ -65,6 +66,7 @@ public class Look : MonoBehaviour
         movementVector = Vector3.ClampMagnitude(movementVector, 1);
 
         Vector3 relativeVector = this.transform.InverseTransformDirection(movementVector);
+
         _animator.SetFloat("Horizontal", relativeVector.x);
         _animator.SetFloat("Vertical", relativeVector.z);
 

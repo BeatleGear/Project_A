@@ -124,6 +124,7 @@ public class EnemyBeh : MonoBehaviour
             enemyEventController.OnEnemyAnimations("AttackPlayer");
             agent.SetDestination(transform.position);
         }
+        //Debug.Log("Расстояние до игрока" + (player.position - transform.position).magnitude);
         transform.LookAt(player);
     }
 
