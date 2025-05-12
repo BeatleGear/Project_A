@@ -11,11 +11,11 @@ public class Look : MonoBehaviour
     [SerializeField]
     Animator _animator;
 
-    public float oldH;
-    public float oldV;
+    //public float oldH;
+    //public float oldV;
 
     Vector3 _movementVector;
-    public Vector3 ForGun;
+    //public Vector3 ForGun;
 
     float _minimumDistance = 0.01f;
 
@@ -42,7 +42,7 @@ public class Look : MonoBehaviour
         if (Physics.Raycast(ray, out hit, 100, LayerMask.GetMask("Ground")))
         {
             Vector3 toPoint = hit.point - this.transform.position;
-            ForGun = hit.point;
+            //ForGun = hit.point;
             if (toPoint.magnitude > _minimumDistance)
             {
                 float rotZ = Mathf.Atan2(toPoint.x, toPoint.z) * Mathf.Rad2Deg;

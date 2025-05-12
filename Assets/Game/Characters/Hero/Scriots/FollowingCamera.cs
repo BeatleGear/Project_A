@@ -1,7 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class FollowingCamera : MonoBehaviour
@@ -81,6 +77,5 @@ public class FollowingCamera : MonoBehaviour
         {
             transform.rotation = Quaternion.LookRotation(_mainCharacter.transform.position - transform.position); 
         }
-
     }
 }

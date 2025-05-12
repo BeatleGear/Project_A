@@ -6387,6 +6387,7 @@ MonoBehaviour:
   speed: 2
   gravity: -9.8
   _charController: {fileID: 2849704238005031748}
+  _followingCamera: {fileID: 0}
 --- !u!1 &5424652239324817934
 GameObject:
   m_ObjectHideFlags: 0
@@ -6958,6 +6959,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
   _animator: {fileID: 8153453739717251218}
+  oldH: 0
+  oldV: 0
   ForGun: {x: 0, y: 0, z: 0}
 --- !u!143 &2849704238005031748
 CharacterController:
@@ -7178,6 +7181,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   _force: 300
+  _isAutomaticShooting: 0
+  _fireRate: 15
+  _player: {fileID: 0}
 --- !u!1 &8836828342791884880
 GameObject:
   m_ObjectHideFlags: 0

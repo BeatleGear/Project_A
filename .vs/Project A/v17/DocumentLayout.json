@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "E:\\Unity User\\Project A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\weapons\\scripts\\weaponswitching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\weaponswitching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\invertory\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\invertory\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\hero\\scriots\\followingcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\followingcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\items\\generator\\generatoron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\items\\generator\\generatoron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\items\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\invertory\\scripts\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\invertory\\scripts\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\items\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\items\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\items\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\items\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\hero\\scriots\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\move.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\hero\\scriots\\look.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\look.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\weapons\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\weapons\\scripts\\gun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\characters\\hero\\scriots\\herohealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\hero\\scriots\\herohealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +30,75 @@
       "DocumentGroups": [
         {
           "DockedWidth": 241,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ItemPickUp.cs",
               "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\ItemPickUp.cs",
               "RelativeDocumentMoniker": "Assets\\Game\\Items\\Scripts\\ItemPickUp.cs",
               "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\ItemPickUp.cs",
               "RelativeToolTip": "Assets\\Game\\Items\\Scripts\\ItemPickUp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T00:49:57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T19:45:35.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeaponSwitching.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\WeaponSwitching.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\WeaponSwitching.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\WeaponSwitching.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\WeaponSwitching.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wC0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "InventorySlot.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\InventorySlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Invertory\\Scripts\\InventorySlot.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\InventorySlot.cs",
+              "RelativeToolTip": "Assets\\Game\\Invertory\\Scripts\\InventorySlot.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T22:52:21.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Look.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\Look.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwEMAAABaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T22:05:30.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HeroHealth.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\HeroHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\HeroHealth.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\HeroHealth.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\HeroHealth.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T20:09:59.27Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Gun.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Gun.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Weapons\\Scripts\\Gun.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Weapons\\Scripts\\Gun.cs",
-              "RelativeToolTip": "Assets\\Game\\Weapons\\Scripts\\Gun.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwBgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T20:08:54.497Z",
+              "WhenOpened": "2025-05-12T19:24:59.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FollowingCamera.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\FollowingCamera.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\FollowingCamera.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\FollowingCamera.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\FollowingCamera.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCQAAAAuAAAAAAAAAA==",
+              "Title": "GeneratorOn.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Generator\\GeneratorOn.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Items\\Generator\\GeneratorOn.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Generator\\GeneratorOn.cs",
+              "RelativeToolTip": "Assets\\Game\\Items\\Generator\\GeneratorOn.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T19:30:26.755Z",
+              "WhenOpened": "2025-05-11T21:33:46.62Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Move.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Hero\\Scriots\\Move.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAA9AAAAAAAAAA==",
+              "Title": "Item.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\Item.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Items\\Scripts\\Item.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\Item.cs",
+              "RelativeToolTip": "Assets\\Game\\Items\\Scripts\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:57:47.553Z",
+              "WhenOpened": "2025-05-11T21:11:59.463Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 241,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InventoryManager.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\InventoryManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Invertory\\Scripts\\InventoryManager.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\InventoryManager.cs",
+              "RelativeToolTip": "Assets\\Game\\Invertory\\Scripts\\InventoryManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T20:41:19.231Z",
               "EditorCaption": ""
             }
           ]

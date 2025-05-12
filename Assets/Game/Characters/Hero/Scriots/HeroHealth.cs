@@ -32,18 +32,8 @@ public class HeroHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //if (_isHit)
-        //{
-        //    if (_animator.GetCurrentAnimatorStateInfo(0).IsName("Blend Tree"))
-        //    {
-        //        Debug.Log("Вернули анимацию, как было");
-        //        _animator.SetBool("Hit", false);
-        //        _isHit = false;
-        //    }
-        //}
-
-        if (Input.GetKeyDown(KeyCode.G))
-            ChangeHeals(-10);
+        //if (Input.GetKeyDown(KeyCode.G))
+        //    ChangeHeals(-10);
     }
 
     private void ChangeHeals(int value)

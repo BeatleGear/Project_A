@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -19,7 +17,6 @@ public class EnemyDamage : MonoBehaviour
     private void Start()
     {
         enemyDamageManager = GameObject.Find("Directional Light").GetComponent<EnemyDamageManager>();
-        //enemyDamageManager.enemyTakeDamage += OnEnemyTakeDamage;
     }
     public void EnemyTakeDamage(float damage, string name, Vector3 force, Vector3 hitPoint)
     {
@@ -34,21 +31,6 @@ public class EnemyDamage : MonoBehaviour
             _ragdollHandler.Hit(force, hitPoint);
         }
     }
-
-    //public void OnEnemyTakeDamage(float damage, string name)
-    //{
-    //    Debug.Log(this.gameObject.name);
-    //    Debug.Log(name);
-    //    if (this.gameObject.name == name)
-    //    {
-    //        _health -= damage;            
-    //        Debug.Log(_health);
-    //        if (_health <= 0)
-    //        {
-    //            Die();
-    //        }
-    //    }
-    //}
 
     void Die()
     {

@@ -1,11 +1,14 @@
+using DG.Tweening;
 using UnityEngine;
 
 public class ItemPickUp : MonoBehaviour
 {
     public Item item;
+
+    [SerializeField]
+    ItemMover _itemMover;
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.transform.name);
         if (other.transform.name == "Pistol Idle")
             PickUp();
     }
@@ -15,6 +18,7 @@ public class ItemPickUp : MonoBehaviour
         if (Inventory.instance.Add(item))
         {
             Debug.Log("Подобрали " + item.name);
+            _itemMover.Animation.Kill();
             Destroy(gameObject);
         }
     }

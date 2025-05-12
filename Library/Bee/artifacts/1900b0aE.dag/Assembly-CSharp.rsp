@@ -119,8 +119,10 @@
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:UNITY_POST_PROCESSING_STACK_V2
+-define:DOTWEEN
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Plugins/Demigiant/DOTween/DOTween.dll"
 -r:"E:/Unity/2022.3.24f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"E:/Unity/2022.3.24f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"E:/Unity/2022.3.24f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -328,6 +330,7 @@
 -r:"E:/Unity/2022.3.24f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"Library/PackageCache/com.unity.testtools.codecoverage@1.2.5/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.2/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-firstpass.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/BzKovSoft.RagdollHelper.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Sprite.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.AI.Navigation.Editor.ConversionSystem.ref.dll"
@@ -361,6 +364,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"E:/Unity/2022.3.24f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"E:/Unity/2022.3.24f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/Game/Area/Gate/OpenGate.cs"
 "Assets/Game/Characters/Enemy/Scripts/EnemyAnimController.cs"
 "Assets/Game/Characters/Enemy/Scripts/EnemyBeh.cs"
 "Assets/Game/Characters/Enemy/Scripts/EnemyDamage.cs"
@@ -382,9 +386,12 @@
 "Assets/Game/Characters/Hero/Scriots/TopDownController.cs"
 "Assets/Game/Invertory/Scripts/HealthBar.cs"
 "Assets/Game/Invertory/Scripts/Inventory.cs"
+"Assets/Game/Invertory/Scripts/InventoryManager.cs"
 "Assets/Game/Invertory/Scripts/InventorySlot.cs"
 "Assets/Game/Invertory/Scripts/InventoryUI.cs"
+"Assets/Game/Items/Generator/GeneratorOn.cs"
 "Assets/Game/Items/Scripts/Item.cs"
+"Assets/Game/Items/Scripts/ItemMover.cs"
 "Assets/Game/Items/Scripts/ItemPickUp.cs"
 "Assets/Game/Other/FPSCapper.cs"
 "Assets/Game/Weapons/Scripts/Gun.cs"

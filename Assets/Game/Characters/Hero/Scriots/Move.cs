@@ -5,9 +5,11 @@ public class Move : MonoBehaviour
 {
     public float speed = 6.0f;
     public float gravity = -9.8f;
+
     [SerializeField]
     private CharacterController _charController;
-    public FollowingCamera _followingCamera;
+    [SerializeField]
+    private FollowingCamera _followingCamera;
 
     float deltaX;
     float deltaZ;
@@ -20,7 +22,7 @@ public class Move : MonoBehaviour
         if (EventSystem.current.IsPointerOverGameObject())
             return;
 
-        switch(_followingCamera.change—ounter)
+        switch (_followingCamera.change—ounter)
         {
             case 0:
                 deltaX = Input.GetAxis("Horizontal") * speed;
@@ -49,4 +51,5 @@ public class Move : MonoBehaviour
         movement = transform.TransformDirection(movement);
         _charController.Move(movement);
     }
+
 }
