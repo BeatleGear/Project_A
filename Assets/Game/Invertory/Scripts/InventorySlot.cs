@@ -31,7 +31,8 @@ public class InventorySlot : MonoBehaviour
         if (item != null)
         {
             item.Use();
-            InventoryManager.OnSlotChanged(this);
+            if (item.name == "Battery")
+                InventoryManager.OnSlotChanged(this);
         }
     }
 }

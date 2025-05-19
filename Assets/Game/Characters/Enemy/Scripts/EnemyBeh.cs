@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -54,7 +52,6 @@ public class EnemyBeh : MonoBehaviour
     }
     private void Patrolling()
     {
-        //Debug.Log("Патруль");
         if (isEnemyIdle)
         {
             enemyEventController.OnEnemyAnimations("Idle");
@@ -80,15 +77,7 @@ public class EnemyBeh : MonoBehaviour
 
             distanceToWalkPoint = transform.position - walkPoint;
 
-            EnemyDistanceToPoint = (currentWalkPoint - distanceToWalkPoint).magnitude;
-            if (((currentWalkPoint - distanceToWalkPoint).magnitude) < 0.001)
-                EnemyOnState++;
-            if (EnemyOnState > 20)
-            {
-                walkPointSet = false;
-                isEnemyIdle = true;
-                EnemyOnState = 0;
-            }
+            NewRoute();
 
             if (distanceToWalkPoint.magnitude < 1f)
             {
@@ -98,9 +87,19 @@ public class EnemyBeh : MonoBehaviour
             }                
         }
     }
+    void NewRoute()
+    {
+        if (((currentWalkPoint - distanceToWalkPoint).magnitude) < 0.001)
+            EnemyOnState++;
+        if (EnemyOnState > 20)
+        {
+            walkPointSet = false;
+            isEnemyIdle = true;
+            EnemyOnState = 0;
+        }
+    }
     private void SearchWalkPoint()
     {
-        //Debug.Log("Ищет точку");
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
 
@@ -111,7 +110,6 @@ public class EnemyBeh : MonoBehaviour
     }
     private void ChasePlayer()
     {
-        //Debug.Log("Преследование");
         agent.SetDestination(player.position);
         enemyEventController.OnEnemyAnimations("Patrolling");
     }
@@ -124,7 +122,6 @@ public class EnemyBeh : MonoBehaviour
             enemyEventController.OnEnemyAnimations("AttackPlayer");
             agent.SetDestination(transform.position);
         }
-        //Debug.Log("Расстояние до игрока" + (player.position - transform.position).magnitude);
         transform.LookAt(player);
     }
 

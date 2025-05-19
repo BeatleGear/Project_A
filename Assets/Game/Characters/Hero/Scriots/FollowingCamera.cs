@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class FollowingCamera : MonoBehaviour
 {
@@ -27,6 +28,9 @@ public class FollowingCamera : MonoBehaviour
     {
         transform.position = new Vector3(_mainCharacter.transform.position.x, _mainCharacter.transform.position.y + _height, _mainCharacter.transform.position.z - _rearDistance);
         transform.rotation = Quaternion.LookRotation(_mainCharacter.transform.position - transform.position);
+        Vector3 rotate = transform.eulerAngles;
+        rotate.x = 40;
+        transform.rotation = Quaternion.Euler(rotate);
     }
     private void Update()
     {
@@ -75,7 +79,10 @@ public class FollowingCamera : MonoBehaviour
         transform.position = Vector3.Lerp(transform.position, currentVector, _returnSpeed * Time.deltaTime);
         if (Time.time <= lastTimeToLook)
         {
-            transform.rotation = Quaternion.LookRotation(_mainCharacter.transform.position - transform.position); 
+            transform.rotation = Quaternion.LookRotation(_mainCharacter.transform.position - transform.position);
         }
+        Vector3 rotate = transform.eulerAngles;
+        rotate.x = 40;
+        transform.rotation = Quaternion.Euler(rotate);
     }
 }

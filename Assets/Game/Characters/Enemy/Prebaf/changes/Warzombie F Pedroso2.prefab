@@ -1610,8 +1610,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.1, y: 0, z: 4.17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 7192949924089622673}
   - {fileID: 5561139756586071121}
@@ -1666,9 +1666,9 @@ MonoBehaviour:
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointRange: 7
   timeBetweenAttacks: 0.5
-  sightRange: 7
-  attackRange: 1.5
-  attackDistance: 1.4
+  sightRange: 5
+  attackRange: 1.1
+  attackDistance: 0.69
   playerInSightRange: 0
   playerInAttackRange: 0
 --- !u!195 &6877542938674154977
@@ -1681,7 +1681,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 2
+  m_Speed: 1.8
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -1724,7 +1724,7 @@ CapsuleCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.3962121
   m_Height: 2.0665095

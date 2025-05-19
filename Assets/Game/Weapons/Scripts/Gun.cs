@@ -7,12 +7,11 @@ public class Gun : MonoBehaviour
 
     public ParticleSystem MuzzleFlash;
 
-    
+    [SerializeField]
 
     public float damage = 10f;
-    public float range = 100f;
-    public float radius = 0.7f;
-
+    public float range;
+    public float radius = 0.01f;
 
     [SerializeField] LayerMask Enemy;
     [SerializeField, Range(1, 1000)] float _force;
@@ -28,7 +27,7 @@ public class Gun : MonoBehaviour
     void Start()
     {
         Enemy = LayerMask.NameToLayer("Enemy");
-        ray = new Ray(this.transform.position, _player.transform.forward);
+        ray = new Ray(transform.position, _player.transform.forward);
     }
 
     // Update is called once per frame
@@ -49,13 +48,12 @@ public class Gun : MonoBehaviour
             if (Input.GetButtonDown("Fire1"))
                 Shoot();
         }
-
-        Debug.DrawRay(this.transform.position, _player.transform.forward * 50, Color.red);
+        Debug.DrawRay(transform.position, _player.transform.forward * range, Color.red);
     }
     void Shoot()
     {
         MuzzleFlash.Play();
-        ray = new Ray(this.transform.position, _player.transform.forward);
+        ray = new Ray(transform.position, _player.transform.forward);
         if (Physics.SphereCast(ray, radius, out hit, range))
         //if (Physics.Raycast(ray, out hit, range))
         {
@@ -64,7 +62,7 @@ public class Gun : MonoBehaviour
             if (enemyDamage != null)
             {
                 Debug.Log("Попали во врага");
-                Vector3 forceDirection = (hit.point - this.transform.position).normalized;
+                Vector3 forceDirection = (hit.point - _player.transform.position).normalized;
                 enemyDamage.EnemyTakeDamage(damage, hit.transform.name, forceDirection * _force, hit.point);
             }
         }

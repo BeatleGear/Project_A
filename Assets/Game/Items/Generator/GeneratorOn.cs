@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GeneratorOn : MonoBehaviour
@@ -9,14 +7,9 @@ public class GeneratorOn : MonoBehaviour
     void Start()
     {
         ThePlayerIsNearby = false;
-        InventoryManager.slotChanged += OnInventorySlotEvent;
+        InventoryManager.slotChanged += OnSlotChanged;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.name == "Pistol Idle")
@@ -33,7 +26,7 @@ public class GeneratorOn : MonoBehaviour
             Debug.Log("Игрок вышел из зоны генератора");
         }
     }
-    void OnInventorySlotEvent(InventorySlot slot)
+    void OnSlotChanged(InventorySlot slot)
     {
         if (ThePlayerIsNearby)
         {
@@ -48,6 +41,7 @@ public class GeneratorOn : MonoBehaviour
                 Debug.Log("Не нашли объект");
             }
             Child.SetActive(true);
+            InventoryManager.OnTasksGeneratorEvent();
         }
         else
         {
