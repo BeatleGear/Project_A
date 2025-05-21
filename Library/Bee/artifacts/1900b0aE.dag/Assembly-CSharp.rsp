@@ -404,6 +404,7 @@
 "Assets/Game/Weapons/Scripts/Weapon.cs"
 "Assets/Game/Weapons/Scripts/WeaponSwitching.cs"
 "Assets/Scenes/ExampleScene/LaserExample.cs"
+"Assets/Scenes/Main menu/MainMenu.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
