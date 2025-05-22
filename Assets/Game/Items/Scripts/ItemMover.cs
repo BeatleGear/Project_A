@@ -9,9 +9,14 @@ public class ItemMover : MonoBehaviour
     void Start()
     {
         Animation = DOTween.Sequence();
-        Animation
-            .Append(transform.DOMoveY(DeltaY, 0.5f).From(false).SetEase(Ease.Linear).SetLoops(int.MaxValue, LoopType.Yoyo))
-            .Join(transform.DORotate(new Vector3(0, 360, 0), 2.0f, RotateMode.FastBeyond360).From().SetEase(Ease.Linear).SetLoops(int.MaxValue));
+        if (transform != null)
+        {
+            Animation
+                .Append(transform.DOMoveY(DeltaY, 0.5f).From(false).SetEase(Ease.Linear).SetLoops(int.MaxValue, LoopType.Yoyo))
+                .Join(transform.DORotate(new Vector3(0, 360, 0), 2.0f, RotateMode.FastBeyond360).From().SetEase(Ease.Linear).SetLoops(int.MaxValue));
+        }
+
+
             
         //SinusMover();
     }

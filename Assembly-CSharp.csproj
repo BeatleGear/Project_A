@@ -73,6 +73,7 @@
     <Compile Include="Assets\Game\Weapons\Scripts\Inventory\InventoryWeaponSlot.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\EnemyDamageManager.cs" />
+    <Compile Include="Assets\Game\UI\PauseMenu\Script\PauseMenu.cs" />
     <Compile Include="Assets\Game\Items\Scripts\ItemPickUp.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
@@ -93,6 +94,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Game\Invertory\Scripts\HealthBar.cs" />
     <Compile Include="Assets\Game\Invertory\Scripts\Inventory.cs" />
+    <Compile Include="Assets\Game\UI\PanelTask\Scripts\TaskCheckScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
@@ -100,7 +102,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\TopDownController.cs" />
-    <Compile Include="Assets\Game\UI\Scripts\TaskCheckScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\Scenes\ExampleScene\LaserExample.cs" />
