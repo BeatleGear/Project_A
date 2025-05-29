@@ -91,7 +91,7 @@ public class EnemyBeh : MonoBehaviour
     {
         if (((currentWalkPoint - distanceToWalkPoint).magnitude) < 0.001)
             EnemyOnState++;
-        if (EnemyOnState > 20)
+        if (EnemyOnState > 10)
         {
             walkPointSet = false;
             isEnemyIdle = true;

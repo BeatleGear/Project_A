@@ -41,6 +41,9 @@ public class GeneratorOn : MonoBehaviour
                 Debug.Log("Не нашли объект");
             }
             Child.SetActive(true);
+
+            GameObject.Find("FinalGate").GetComponent<OpenGate>().enabled = true;
+
             InventoryManager.OnTasksGeneratorEvent();
         }
         else

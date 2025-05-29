@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Game\Characters\Hero\Scriots\AnimatorController.cs" />
+    <Compile Include="Assets\Game\UI\Comlate panel\EndTrigger.cs" />
     <Compile Include="Assets\Game\Weapons\Scripts\Inventory\WeaponPickUp.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\FollowingCamera.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
@@ -135,6 +136,7 @@
     <Compile Include="Assets\Game\Invertory\Scripts\InventoryUI.cs" />
     <Compile Include="Assets\Game\Characters\Hero\Scriots\Move.cs" />
     <Compile Include="Assets\Game\Characters\Enemy\Scripts\ForRagdoll\EnemyView.cs" />
+    <Compile Include="Assets\Game\UI\Comlate panel\CompletePanel.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>
