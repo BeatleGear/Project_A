@@ -16,6 +16,8 @@ public class HeroHealth : MonoBehaviour
     [SerializeField] CharacterController _characterController;
     [SerializeField] Look _look;
 
+    public DeathMenu deathMenu;
+
 
     public event Action<float> HealthChanged;
     Vector3 pos;
@@ -57,6 +59,7 @@ public class HeroHealth : MonoBehaviour
     {        
         HealthChanged?.Invoke(0);
         Die();
+        deathMenu.Pause();
     }
     void Die()
     {

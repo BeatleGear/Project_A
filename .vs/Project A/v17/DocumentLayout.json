@@ -3,52 +3,16 @@
   "WorkspaceRootPath": "E:\\Unity User\\Project A\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\ui\\comlate panel\\completepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\ui\\comlate panel\\completepanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\items\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\items\\scripts\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\ui\\comlate panel\\endtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\ui\\comlate panel\\endtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\items\\generator\\generatoron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\items\\generator\\generatoron.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\area\\gate\\opengate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\area\\gate\\opengate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\characters\\enemy\\scripts\\enemybeh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\characters\\enemy\\scripts\\enemybeh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\items\\scripts\\itemmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\items\\scripts\\itemmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\items\\scripts\\itemmover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\ui\\pausemenu\\script\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\ui\\pausemenu\\script\\pausemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\scenes\\main menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\main menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\invertory\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\invertory\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\items\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\items\\scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|E:\\Unity User\\Project A\\assets\\game\\invertory\\scripts\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\invertory\\scripts\\inventoryslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity User\\Project A\\Assets\\Game\\UI\\Scripts\\TaskCheckScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Game\\UI\\Scripts\\TaskCheckScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|e:\\unity user\\project a\\assets\\game\\ui\\paneltask\\scripts\\taskcheckscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16476FB6-594C-0DEC-2AA0-69B9674E3AB3}|Assembly-CSharp.csproj|solutionrelative:assets\\game\\ui\\paneltask\\scripts\\taskcheckscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,153 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 464,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EndTrigger.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\UI\\Comlate panel\\EndTrigger.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\UI\\Comlate panel\\EndTrigger.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\UI\\Comlate panel\\EndTrigger.cs",
-              "RelativeToolTip": "Assets\\Game\\UI\\Comlate panel\\EndTrigger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T19:32:52.663Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CompletePanel.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\UI\\Comlate panel\\CompletePanel.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\UI\\Comlate panel\\CompletePanel.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\UI\\Comlate panel\\CompletePanel.cs",
-              "RelativeToolTip": "Assets\\Game\\UI\\Comlate panel\\CompletePanel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Title": "ItemPickUp.cs",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\ItemPickUp.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\Items\\Scripts\\ItemPickUp.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\ItemPickUp.cs",
+              "RelativeToolTip": "Assets\\Game\\Items\\Scripts\\ItemPickUp.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T19:23:02.522Z",
+              "WhenOpened": "2025-06-04T19:48:35.176Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OpenGate.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Area\\Gate\\OpenGate.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Area\\Gate\\OpenGate.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Area\\Gate\\OpenGate.cs",
-              "RelativeToolTip": "Assets\\Game\\Area\\Gate\\OpenGate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T20:17:52.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnemyBeh.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyBeh.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyBeh.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyBeh.cs",
-              "RelativeToolTip": "Assets\\Game\\Characters\\Enemy\\Scripts\\EnemyBeh.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwF0AAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T19:22:04.255Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "ItemMover.cs",
               "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\ItemMover.cs",
               "RelativeDocumentMoniker": "Assets\\Game\\Items\\Scripts\\ItemMover.cs",
               "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\ItemMover.cs",
               "RelativeToolTip": "Assets\\Game\\Items\\Scripts\\ItemMover.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wCMAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T21:39:03.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PauseMenu.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\UI\\PauseMenu\\Script\\PauseMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\UI\\PauseMenu\\Script\\PauseMenu.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\UI\\PauseMenu\\Script\\PauseMenu.cs",
-              "RelativeToolTip": "Assets\\Game\\UI\\PauseMenu\\Script\\PauseMenu.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwCsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T20:59:21.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Scenes\\Main menu\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\Scenes\\Main menu\\MainMenu.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Scenes\\Main menu\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\Scenes\\Main menu\\MainMenu.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T19:36:46.266Z"
+              "WhenOpened": "2025-06-04T19:47:39.536Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GeneratorOn.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Generator\\GeneratorOn.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Items\\Generator\\GeneratorOn.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Generator\\GeneratorOn.cs",
-              "RelativeToolTip": "Assets\\Game\\Items\\Generator\\GeneratorOn.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCwAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:55:29.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InventorySlot.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\InventorySlot.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Invertory\\Scripts\\InventorySlot.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\InventorySlot.cs",
-              "RelativeToolTip": "Assets\\Game\\Invertory\\Scripts\\InventorySlot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:48:14.754Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "TaskCheckScript.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\UI\\Scripts\\TaskCheckScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\UI\\Scripts\\TaskCheckScript.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\UI\\Scripts\\TaskCheckScript.cs",
-              "RelativeToolTip": "Assets\\Game\\UI\\Scripts\\TaskCheckScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\UI\\PanelTask\\Scripts\\TaskCheckScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Game\\UI\\PanelTask\\Scripts\\TaskCheckScript.cs",
+              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\UI\\PanelTask\\Scripts\\TaskCheckScript.cs",
+              "RelativeToolTip": "Assets\\Game\\UI\\PanelTask\\Scripts\\TaskCheckScript.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCIAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:33:54.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "InventoryManager.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\InventoryManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Invertory\\Scripts\\InventoryManager.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Invertory\\Scripts\\InventoryManager.cs",
-              "RelativeToolTip": "Assets\\Game\\Invertory\\Scripts\\InventoryManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T17:08:38.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Item.cs",
-              "DocumentMoniker": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\Item.cs",
-              "RelativeDocumentMoniker": "Assets\\Game\\Items\\Scripts\\Item.cs",
-              "ToolTip": "E:\\Unity User\\Project A\\Assets\\Game\\Items\\Scripts\\Item.cs",
-              "RelativeToolTip": "Assets\\Game\\Items\\Scripts\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T12:59:56.263Z"
+              "WhenOpened": "2025-06-04T19:45:46.321Z",
+              "EditorCaption": ""
             }
           ]
         }

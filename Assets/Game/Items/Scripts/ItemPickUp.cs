@@ -18,9 +18,11 @@ public class ItemPickUp : MonoBehaviour
         if (Inventory.instance.Add(item))
         {
             Debug.Log("Подобрали " + item.name);
-            InventoryManager.OnTasksEvent(this);
-            _itemMover.Animation.Kill();
-            Destroy(gameObject);
+            gameObject.SetActive(false);
+            //_itemMover.Animation.Kill();
+            InventoryManager.OnTasksEvent(this);            
+            //Destroy(gameObject);
+            
         }
     }
 }

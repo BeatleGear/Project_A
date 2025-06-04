@@ -31,4 +31,8 @@ public class ItemMover : MonoBehaviour
     {
         transform.DOMoveY(2, 0.5f).From(false).SetLoops(-1, LoopType.Yoyo);
     }
+    private void OnDestroy()
+    {
+        Animation.Kill();
+    }
 }

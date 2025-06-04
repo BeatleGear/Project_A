@@ -396,6 +396,7 @@
 "Assets/Game/Other/FPSCapper.cs"
 "Assets/Game/UI/Comlate panel/CompletePanel.cs"
 "Assets/Game/UI/Comlate panel/EndTrigger.cs"
+"Assets/Game/UI/DeathMenu/DeathMenu.cs"
 "Assets/Game/UI/PanelTask/Scripts/TaskCheckScript.cs"
 "Assets/Game/UI/PauseMenu/Script/PauseMenu.cs"
 "Assets/Game/Weapons/Scripts/Gun.cs"
